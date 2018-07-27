@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_messge_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_message_update"
+        android:textSize="25sp"
+        android:background="@color/backgroud_message_add"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_add_name"
+        android:layout_below="@id/tv_messge_update"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/et_update_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_add_phone_number"
+        android:layout_below="@id/et_update_name"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/bt_update_save"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bt_update_close"
+        android:layout_marginEnd="15dp"
+        android:text="@string/bt_update_save"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bt_update_close"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="158dp"
+        android:text="@string/bt_update_close"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bt_update_delete"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bt_update_save"
+        android:layout_marginEnd="131dp"
+        android:text="@string/bt_update_delete"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

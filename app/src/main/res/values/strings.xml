@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="dialog_add">DIALOG ADD</string>
+    <string name="tv_message_add">Add Contact</string>
+    <string name="et_add_name">Name</string>
+    <string name="et_add_phone_number"> Phone Nuber</string>
+    <string name="bt_add_save">Save</string>
+    <string name="bt_add_close">Close</string>
+
+    <string name="dialog_update">DIALOG UPDATE</string>
+    <string name="tv_message_update">Update Contact</string>
+    <string name="et_update_name">Name</string>
+    <string name="et_update_phone_number"> Phone Nuber</string>
+    <string name="bt_update_save">Save</string>
+    <string name="bt_update_close">Close</string>
+    <string name="bt_update_delete">Delete</string>
+</resources>
